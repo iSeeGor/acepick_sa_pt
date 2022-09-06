@@ -1,0 +1,33 @@
+.site-logo {
+	img {	
+			width: 98px;
+
+		@media (min-width: 374px) {
+			width: 109px;
+		}
+
+		@media (min-width: 480px) {
+			width: 120px;
+		}
+
+		@media (min-width: 768px) {
+			width: 132px;
+		}
+
+		@media (min-width: 990px) {
+			width: 142px;
+		}
+
+		@media (min-width: 1200px) {
+			width: 154px;
+		}
+
+		@media (min-width: 1440px) {
+			width: 164px;
+		}
+
+		@media (min-width: 1700px) {
+			width: 176px;
+		}
+	}
+}

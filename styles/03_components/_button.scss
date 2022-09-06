@@ -1,0 +1,40 @@
+.button {
+	display: grid;
+	place-items: center;
+	padding: var(--py-button, 7px) var(--px-button, 14px);
+	color: var(--c-button, var(--black-default));
+	font-weight: var(--font-weight-bold);
+	font-size: 14px;
+	border: none;
+	background-color: var(--bgc-button, transparent);
+	text-decoration: none;
+	border-radius: 8px;
+	transition: background-color var(--transition);
+
+
+	&:hover {
+
+		color: var(--c-button-hover, var(--black-default));
+		background-color: var(--bgc-button-hover, transparent);
+	}
+
+	&--green {
+		--bgc-button: var(--green-900);
+		--bgc-button-hover: var(--white-default);
+	}
+
+	&--registration {
+		padding-top: 7px;
+		padding-bottom: 6px;
+
+		@media (max-width: 1200px) {
+			font-size: 12px;
+		}
+
+		@media (max-width: 767.5px) {
+			padding: 5px 10px 4px;
+			font-size: 10px;
+			border-radius: 6px;
+		}
+	}
+}

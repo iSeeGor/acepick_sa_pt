@@ -1,0 +1,49 @@
+.site {
+	max-width: 1920px;
+	max-height: 1080px;
+	width: 100%;
+	min-height: 100vh;
+	margin: 0 auto;
+
+	@media (max-width: 480px) {
+		display: flex;
+		flex-direction: column;
+	}
+
+	&__header {
+		padding: 0 16px;
+		border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+
+		@media (min-width: 374px) {
+			padding: 0 24px;
+		}
+
+		@media (min-width: 768px) {
+			padding: 0 32px;
+		}
+
+		@media (min-width: 990px) {
+			padding: 0 40px;
+		}
+
+		@media (min-width: 1200px) {
+			padding: 0 48px;
+		}
+
+		@media (min-width: 1440px) {
+			padding: 0 56px;
+		}
+
+		@media (min-width: 1700px) {
+			padding: 0 62px;
+		}
+	}
+
+	&__content {
+
+		@media (max-width: 480px) {
+			display: flex;
+			height: 100%;
+		}
+	}
+}

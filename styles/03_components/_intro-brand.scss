@@ -1,0 +1,48 @@
+.intro-brand {
+	display: none;
+
+	@media (min-width: 990px) {
+		display: flex;
+		align-items: center;
+	}
+
+	&__img {
+		width: 64px;
+
+		@media (min-width: 1200px) {
+			width: 70px;
+		}
+
+		@media (min-width: 1440px) {
+			width: 76px;
+		}
+
+		@media (min-width: 1700px) {
+			width: 82px;
+		}
+	}
+
+	&__content {
+
+		margin-left: 14px;
+	}
+
+	&__text {
+		font-weight: var(--font-weight-bold);
+		font-size: 24px;
+		line-height: 0.92;
+		text-transform: uppercase;
+
+		@media (min-width: 1200px) {
+			font-size: 28px;
+		}
+
+		@media (min-width: 1440px) {
+			font-size: 32px;
+		}
+
+		@media (min-width: 1700px) {
+			font-size: 38px;
+		}
+	}
+}

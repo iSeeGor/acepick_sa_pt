@@ -1,0 +1,26 @@
+@media ( min-height: 900px ) and ( max-height: 1080px ) and (min-width: 1440px) {
+	
+	.site {
+		height: 100vh;
+
+		&__content {
+
+			height: calc( 100% - 72px );
+		}
+	}
+
+	.intro {
+		height: 100%;
+	}
+
+	.intro-picture__img {
+		height: 100%;
+		width: 100%;
+		object-fit: cover;
+	}
+
+	.intro__brand {
+
+		bottom: 20px;
+	}
+}	

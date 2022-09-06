@@ -1,0 +1,23 @@
+html {
+	box-sizing: border-box;
+	// height: -webkit-fill-available;
+}
+
+* {
+	&,
+	&::before,
+	&::after {
+  		box-sizing: inherit;
+	}
+}
+
+
+body {
+	min-width: 320px;
+	overflow-x: hidden;
+	color: var(--white-default);
+	font-weight: var(--font-weight-regular);
+	font-family: 'TT Firs Neue', sans-serif;
+	line-height: 1.4;
+	background-color: var(--black-700);
+}

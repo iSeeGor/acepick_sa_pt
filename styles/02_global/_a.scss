@@ -1,0 +1,7 @@
+a {
+	color: var(--c-link, inherit);
+
+	&:hover {
+		color: var(--c-link-hover, inherit);
+	}
+}

@@ -1,0 +1,40 @@
+.intro {
+	
+	display: flex;
+	flex-direction: column-reverse;
+	max-width: 720px;
+	margin: 0 auto;
+
+	@media (min-width: 990px) {
+		flex-direction: row;
+		max-width: 100%;
+	}
+
+	&__thumb {
+		position: relative;
+		max-width: 1226px;
+	}
+
+	&__brand {
+		position: absolute;
+		left: 59%;
+		z-index: 1;
+
+		@media (min-width: 990px) {
+			bottom: 30px;
+		}
+
+		@media (min-width: 1440px) {
+			bottom: 40px;
+		}
+
+		@media (min-width: 1700px) {
+			bottom: 52px;
+		}
+
+	}
+	
+	&__content {
+		flex: 1 1 auto;
+	}
+}
